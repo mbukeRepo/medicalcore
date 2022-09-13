@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  /* background: #fff5f0; */
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  /* width: 100%; */
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+h5 {
+  color: #1ba0ab;
+}
+p {
+  color: #737373;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+header {
+  background: #fff5f0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+}
+
+.header__logo {
+  font-weight: 600;
+  font-size: 24px;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__menu__list {
+  display: flex;
+}
+.header__menu__item {
+  font-weight: 200;
+  font-size: 1rem;
+  color: gray;
+  padding: 0.3rem;
+}
+
+.header__btn {
+  background: inherit;
+  color: #1ba0ab;
+  padding: 1.1rem;
+  border-radius: 5px;
+}
+.header__btn--success {
+  background: #1ba0ab !important;
+  color: white !important;
+}
+.hero-section__container {
+  background: #fff5f0;
+}
+.hero-section {
+  /* margin-top: 8rem; */
+  margin-bottom: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  line-height: 1;
+}
+
+.hero-section__btn {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  border-radius: 7px;
+  font-size: 15px;
+}
+.hero-section__btn--contained {
+  background: #1ba0ab;
+  color: white;
+  border: 1px solid #1ba0ab;
+}
+.hero-section__btn--outlined {
+  background: inherit;
+  border: 1px solid #1ba0ab;
+  color: #1ba0ab;
+}
+.experts-section {
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2.2rem;
+}
+.experts-section__link {
+  display: flex;
+  color: #1ba0ab !important;
+  align-items: center;
+}
+
+.experts-section__link p {
+  margin-right: 1.2rem;
+  color: #1ba0ab !important;
+}
+.experts-section__brick {
+  width: 94px;
+  height: 7px;
+  background: #e74040;
+}
+.experts-section__img {
+  /* height: 400px; */
+  object-fit: cover;
+}
+
+.teams-section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  background: white;
+  padding-bottom: 6rem;
+}
+
+.teams-section p {
+  font-size: 15px;
+}
+
+.teams-section__list {
+  margin-top: 6rem;
+  display: flex;
+}
+
+.teams-section__item {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-right: 1.4rem;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.teams-section__item__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.teams-section__item__footer div {
+  margin-right: 1.2rem;
+}
+.teams-section__item__img {
+  width: 100%;
+}
+.teams-section__item__desc {
+  padding: 2rem;
+}
+
+/* .teams-section__item__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.title {
+  color: black;
+  font-weight: 700;
+}
+.contactus-section {
+  background: #fff5f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.contactus-section__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactus-section__container h5,
+.contactus-section__container h1,
+.contactus-section__container p {
+  text-align: center;
+}
+
+.contactus-section__container h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.contactus-section__container p {
+  max-width: 600px;
+}
+.contactus-section__form {
+  margin-top: 5rem;
+  display: flex;
+  /* max-width: 120%; */
+  /* width: 100%; */
+}
+
+.contactus-section__input {
+  background: white;
+  outline: none;
+  padding: 0.6rem;
+  color: #737373;
+  border: 1px solid gray;
+}
+.contactus-section__btn {
+  background: #1ba0ab;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
